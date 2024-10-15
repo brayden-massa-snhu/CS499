@@ -2,5 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: gray;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.heading {
+  text-align: center;
+  margin: 40px auto;
+}
+section {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 70%;
+  margin: 0 auto 50px auto;
+}
+p {
+  width: 80%;
+  text-align: center;
+  margin: 25px auto;
+  line-height: 40px;
+  font-size: 1.3rem;
+}
+iframe {
+  width: 80%;
+  min-height: 500px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0 100px 0;
+  padding: 1px;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
