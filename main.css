@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(209, 195, 176);
+}
 h1 {
   font-size: 3rem;
   font-weight: 500;
@@ -15,12 +18,18 @@ h3 {
   margin: 40px auto;
 }
 section {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 20px;
   width: 70%;
   margin: 0 auto 50px auto;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 223, 215);
 }
-p {
+.main-text {
   width: 80%;
   text-align: center;
   margin: 25px auto;
@@ -30,11 +39,66 @@ p {
 iframe {
   width: 80%;
   min-height: 500px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   margin: 20px 0 100px 0;
   padding: 1px;
   border: 1px solid gray;
   border-radius: 4px;
+}
+
+.outcomes-list {
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  width: 85%;
+  padding: 30px;
+}
+
+.outcomes-list > h2 {
+  font-weight: bolder;
+}
+
+li {
+  margin: 20px 0 5px 0;
+  list-style-type: none;
+  font-weight: 550;
+}
+ul > p {
+  font-size: 1.35rem;
+}
+.image-containers {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+#db-image-containers {
+  flex-direction: column;
+  min-height: 1000px;
+}
+.image-container {
+  margin: 18px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 450px;
+}
+.image-container > h3 {
+  text-align: center;
+}
+img {
+  border-radius: 10px;
+}
+.download-btn {
+  font-size: 1.2rem;
+  padding: 15px 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(232, 223, 215);
+}
+.download-btn:hover {
+  background-color: rgb(209, 195, 176);
 }
